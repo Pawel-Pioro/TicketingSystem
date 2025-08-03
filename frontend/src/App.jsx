@@ -7,6 +7,7 @@ import Login from './pages/Auth/Login'
 import NotFound from './pages/404notFound';
 import Register from './pages/Auth/Register';
 import Dashboard from './pages/dashboard.jsx';
+import LandingPage from './pages/landingPage.jsx';
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
             :
             (
               <>
+                <Route index element={<LandingPage />} />
                 <Route path='login' element={<Login />} />
                 <Route path='register' element={<Register />} />
               </>
