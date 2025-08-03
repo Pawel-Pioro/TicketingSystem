@@ -56,7 +56,7 @@ export default function TicketView({ ticket, ticketViewClose, getTickets }) {
                 </div>
             </div>
 
-            <div className="card card-border bg-base-100 shadow-2xl mt-10">
+            <div className="card card-border bg-base-100 shadow-2xl mt-10 mb-5">
                 <div className="card-body">
                     <p className="text-2xl font-semibold">Messages </p>
                     <div className="card  bg-base-100 shadow-2xl p-5">
